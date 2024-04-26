@@ -1,0 +1,36 @@
+body {
+  background: #ea9292;
+  background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало задний фон */
+  background-attachment: fixed; /* Фиксирование фона при прокрутке страницы */
+  background-position: center; /* Выравнивание изображения по центру */
+}
+
+h1 {
+  color: rgb(210, 206, 206);
+  width: 500px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: #303030;
+  color: rgb(170, 203, 0);
+
+  border: 2px solid rgb(212, 255, 0);
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.hidden {
+  display: none;
+}
+
+.countdown {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
